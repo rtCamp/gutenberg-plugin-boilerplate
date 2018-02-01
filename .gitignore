@@ -3,4 +3,3 @@ node_modules
 .DS_Store
 *.log
 phpcs.xml
-package.json.lock
