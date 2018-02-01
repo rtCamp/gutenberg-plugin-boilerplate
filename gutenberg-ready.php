@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Gutenberg Ready
  * Description: Gutenblock Boilerplate
- * Author: sagarkbhatt
- * Author URI: https://github.com/sagarkbhatt/
+ * Author: rtCamp, sagarkbhatt
+ * Author URI: https://rtcamp.com/
  * Version: 0.1
  * License: GPLv2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
