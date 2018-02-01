@@ -10,7 +10,7 @@ namespace Gutenberg_Ready\Gutenblocks;
 /**
  * Class Register_Blocks
  *
- * @package WP_Lyrucs\Gutenblocks
+ * @package Gutenberg_Ready\Gutenblocks
  */
 class Register_Blocks {
 
