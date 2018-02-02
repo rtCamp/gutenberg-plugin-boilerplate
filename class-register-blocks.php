@@ -2,19 +2,19 @@
 /**
  * Register plugin blocks
  *
- * @package Gutenberg_Ready
+ * @package rtBlocks
  */
 
-namespace Gutenberg_Ready\Gutenblocks;
+namespace rtBlocks\Gutenblocks;
 
 /**
  * Class Register_Blocks
  *
- * @package Gutenberg_Ready\Gutenblocks
+ * @package rtBlocks\Gutenblocks
  */
 class Register_Blocks {
 
-	use \Gutenberg_Ready\Traits\Singleton;
+	use \rtBlocks\Traits\Singleton;
 
 	/**
 	 * Initialize Block.

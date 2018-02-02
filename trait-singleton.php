@@ -2,10 +2,10 @@
 /**
  * Trait Singleton
  *
- * @package Gutenberg_Ready
+ * @package rtBlocks
  */
 
-namespace Gutenberg_Ready\Traits;
+namespace rtBlocks\Traits;
 
 /**
  * Trait Singleton
