@@ -20,5 +20,5 @@ git clone https://github.com/rtCamp/gutenberg-plugin-boilerplate.git rt-blocks
 
 ## Requirements
 
-- You should also have the latest release of npm installed.
+- You should have the latest release of npm installed.
 - You should be running a Node version matching the current active LTS release or newer for this plugin to work correctly.
