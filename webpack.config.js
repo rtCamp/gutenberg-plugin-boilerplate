@@ -46,7 +46,7 @@ const externals = {
 };
 
 module.exports = {
-	entry: './block/index.jsx',
+	entry: './block/',
 	output: {
 		filename: 'block/build/build.js',
 		path: __dirname,
