@@ -8,7 +8,7 @@
 - Ease development using development and production build option.
 - `ESLINT` coding standard configuration.
 
-## How to use
+## How to use ?
 
 - Clone this repo in wp-content/plugins directory.
 ```
