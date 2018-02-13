@@ -1,5 +1,6 @@
 const webpack = require( 'webpack' );
 const ExtractTextPlugin = require( 'extract-text-webpack-plugin' ); // CSS loader for styles specific to block editing.
+const glob = require( 'glob' );
 
 // Configuration for the ExtractTextPlugin.
 const extractConfig = {
@@ -28,12 +29,12 @@ const extractConfig = {
 };
 
 const editBlocksCSSPlugin = new ExtractTextPlugin( {
-	filename: './block/build/editor.css',
+	filename: './blocks/build/editor.css',
 } );
 
 // CSS loader for styles specific to blocks in general.
 const blocksCSSPlugin = new ExtractTextPlugin( {
-	filename: './block/build/style.css',
+	filename: './blocks/build/style.css',
 } );
 
 const externals = {
@@ -46,9 +47,11 @@ const externals = {
 };
 
 module.exports = {
-	entry: './block/',
+	entry: {
+		blocks: glob.sync( './blocks/*/index.js' ),
+	},
 	output: {
-		filename: 'block/build/build.js',
+		filename: 'blocks/build/build.js',
 		path: __dirname,
 	},
 	externals,
