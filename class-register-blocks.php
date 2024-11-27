@@ -20,11 +20,13 @@ class Register_Blocks {
 	 * Initialize Block.
 	 */
 	protected function init() {
-
-		// add_action( 'enqueue_block_editor_assets', array( $this, 'register_sample_block' ) );
+		// add_action( 'enqueue_block_editor_assets', array( $this, 'register_sample_block' ) );.
 	}
 }
 
-add_action( 'plugins_loaded', function () {
-	Register_Blocks::get_instance();
-} );
+add_action(
+	'plugins_loaded',
+	function () {
+		Register_Blocks::get_instance();
+	}
+);
